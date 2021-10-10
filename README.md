@@ -1,6 +1,6 @@
 # Election_Analysis
 
-# Overview
+## Overview
 Data analysis for the Colorado Board of Elections will report:
 
 Initial request
@@ -16,9 +16,9 @@ Bonus info from the challenge
 * The county with the highest turnout
 
 
-# Election-Audit Results
+## Election-Audit Results
 
-# Election-Audit Summary
+## Election-Audit Summary
 The results of the analysis shows:
 
 Candidates:
