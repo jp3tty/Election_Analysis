@@ -38,4 +38,26 @@ Results of the vote:
 
 Summarize some of the functions in the audit program.
 
+The script begins by utilizing Python modules to interface with the CSV file and write the analysis information to a TXT file.
+
+@image of Python modules
+
+Per the audit request from the Colorade Board of Elections, the script defines its reportable outputs as
+
+* total votes
+* candidate names
+* votes to candidates
+* county names
+* votes in each county
+* the winning candidate
+* the largest county turnout.
+
+@image of defining variables
+
+The Python program then opens the election CSV file and processes the lines of data to tally the listed outputs by the means of a For loop.
+
+@image of the For loop
+
+After the For loop is completed 
+
 @@@Images of the Python code.
