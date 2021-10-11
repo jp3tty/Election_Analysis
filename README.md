@@ -30,7 +30,9 @@ Results of the vote:
 * Raymon Anthony Doane received 3.1% of the vote with 11,606 votes.
 
 
-@@@Place Image of report txt.
+@@@Place Image of command line report.
+
+@@@Include a link to the txt file.
 
 ## Election-Audit Summary
 
