@@ -32,7 +32,7 @@ Results of the vote:
 
 @@@Place Image of command line report.
 
-@@@Include a link to the txt file.
+The TXT file can be accessed through this link: [election_analysis.txt](https://github.com/jp3tty/Election_Analysis/blob/main/analysis/election_analysis.txt)
 
 ## Election-Audit Summary
 
