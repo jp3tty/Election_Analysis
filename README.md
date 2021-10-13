@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Overview
-The Colorado Board of Elections requests an audit on the results of a local election. Their voting data was captured in a CSV file named "election_results," and a Python program was used to analyze and write a report for the board to review. The program provides the following information:
+The Colorado Board of Elections requests an audit on the results of a local election. Their voting data was captured in a CSV file named "election_results," and a Python program named PyPoll_Challenge ([link](https://github.com/jp3tty/Election_Analysis/blob/main/PyPoll_Challenge.py)) was used to analyze and write a report for the board to review. The program provides the following information:
 
 * Total number of votes cast
 * A complete list of candidates who received votes
@@ -17,15 +17,13 @@ The results are communicated via the programs command line, as well as captured 
 
 ## Election-Audit Results
 
-The results from processing the election_results CSV from the Colorado Board of Elections produces the following: 
+The analysis results produces the following outcome in the Python command line: 
 
 ![terminal results](https://github.com/jp3tty/Election_Analysis/blob/main/Resources/terminal_results.PNG)
 
-The TXT file can be accessed through this link: [election_analysis.txt](https://github.com/jp3tty/Election_Analysis/blob/main/analysis/election_analysis.txt)
+The TXT file can be accessed through this link: [election_analysis.txt](https://github.com/jp3tty/Election_Analysis/blob/main/analysis/election_analysis.txt).
 
 ## Election-Audit Summary
-
-Summarize some of the functions in the audit program.
 
 The script begins by utilizing Python modules to interface with the CSV file and write the analysis information to a TXT file.
 
@@ -34,10 +32,10 @@ The script begins by utilizing Python modules to interface with the CSV file and
 Per the audit request from the Colorade Board of Elections, the script defines its reportable outputs as
 
 * total votes
-* candidate names
-* votes to candidates
+* candidate names (shown below as candidate_options)
+* votes to candidates (shown below as candidate_votes)
 * county names
-* votes in each county
+* votes in each county (shown below as county_votes)
 * the winning candidate
 * the largest county turnout.
 
@@ -57,8 +55,8 @@ The county votes are determined with a For loop similar to the loop that was use
 
 ![county votes loop](https://github.com/jp3tty/Election_Analysis/blob/main/Resources/county_votes_loop.PNG)
 
-This section of the code also uses the total votes to calculates the percentage of votes for each county and declares the county with the largest number of votes. This information is printed and saved to the TXT file.
+This section of the code also uses the total votes to determine the percentage of votes for each county and declares the county with the largest number of votes. This information is also printed and saved to the TXT file.
 
-Conditional formatting is applied at the end of the script to process and report the winning candidate, their vote count, and winning percentage, as well as print the information to the command line and save it to the TXT file.c
+Conditional formatting is applied at the end of the script to process and report the winning candidate, their vote count, and winning percentage, as well as print the information to the command line and save it to the TXT file.
 
 ![Condition formatting](https://github.com/jp3tty/Election_Analysis/blob/main/Resources/conditional_format.PNG)
