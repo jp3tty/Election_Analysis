@@ -23,6 +23,20 @@ The analysis results produces the following outcome in the Python command line:
 
 The TXT file can be accessed through this link: [election_analysis.txt](https://github.com/jp3tty/Election_Analysis/blob/main/analysis/election_analysis.txt).
 
+As we can see from the above results the election information is as follows:
+* Total votes cast in this congressional election: 369,733
+* Total votes for each county:
+  * Jefferson with 38,855 votes (10.5% of total votes)
+  * Denver with 306,055 votes (82.8% of total votes)
+  * Arapahoe with 24,801 votes (6.7% of total votes)
+* County with the largest vote turnout: Denver
+* Number of votes for each candidate:
+  * Charles Casper Stockham had 85,213 votes (23.0% of total votes)
+  * Diana DeGette had 272,892 votes (73.8% of total votes)
+  * Raymon Anthony Doane had 11,606 votes (3.1% of total votes)
+* Winning candidate: Diana DeGette won the election with 272,892 votes (73.8% of total votes)
+
+
 ## Election-Audit Summary
 
 The script begins by utilizing Python modules to interface with the CSV file and write the analysis information to a TXT file.
