@@ -17,20 +17,9 @@ The results are communicated via the programs command line, as well as captured 
 
 ## Election-Audit Results
 
-The results of the analysis shows:
+The results from processing the election_results CSV from the Colorado Board of Elections produces the following: 
 
-Candidates:
-* Charles Casper Stockham
-* Diana DeGette
-* Raymon Anthony Doane
-
-Results of the vote:
-* Stockham received 23.0% of the vote with 85,213 votes.
-* Diana DeGette received 73.8% of the vote with 272,892 votes.
-* Raymon Anthony Doane received 3.1% of the vote with 11,606 votes.
-
-
-@@@Place Image of command line report.
+![terminal results](https://github.com/jp3tty/Election_Analysis/blob/main/Resources/terminal_results.PNG)
 
 The TXT file can be accessed through this link: [election_analysis.txt](https://github.com/jp3tty/Election_Analysis/blob/main/analysis/election_analysis.txt)
 
