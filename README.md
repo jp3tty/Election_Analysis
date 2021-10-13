@@ -12,7 +12,7 @@ The Colorado Board of Elections requests an audit on the results of a local elec
 * The percentage of votes from each county out of the total count
 * The county with the highest turnout
 
-and the results are communicated via the programs command line, as well as captured in a TXT file labeled "election_analysis." Below we will report the results of the audit and discuss the program used to arrive at its outcome.
+The results are communicated via the programs command line, as well as captured in a TXT file labeled "election_analysis." Below we will report the results of the audit and discuss the program used to arrive at its outcome.
 
 
 ## Election-Audit Results
